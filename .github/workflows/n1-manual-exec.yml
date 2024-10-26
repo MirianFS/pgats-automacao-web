@@ -10,9 +10,6 @@ jobs:
         steps:
             
             - uses: actions/checkout@v4    
-        
-            - name: Instalando Node
-              run: sudo apt install nodejs
 
             - name: Instalando Cypress
               run: npm install -D cypress
